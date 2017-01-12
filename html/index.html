@@ -22,23 +22,27 @@
 </head>
 
 <body>
+
+    <!-- ヘッダー -->
+    <div id="header"></div>
+    
+    <!-- 本文ブロック -->
     <div class="container">
-        <!-- ヘッダー -->
-        <div id="header">dst</div>
-
-
         <div class="row">
             <div class="col-sm-3 hidden-xs" style="background:#CBA;height: 100vh;">
-                <div id="menu">dst</div>
-                <div id="link">dst</div>
+                <!-- メニュー -->
+                <div id="menu"></div>
+                <!-- リンク -->
+                <div id="link"></div>
             </div>
             <div class="col-sm-9 col-xs-12" style="background:#999;height: 100vh;">
                 <h2>本文ブロック</h2>
             </div>
         </div>
-
     </div>
 
+    <!-- フッター -->
+    <div id="footer"></div>
 
 
 
@@ -47,11 +51,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
-    <script src = "load.js" ></script>
-    
+    <script src="load.js"></script>
+
     <script type="text/javascript">
         $(function () {
-            load_html_and_insert('./parts/header.html', [["header", "header"]]);  load_html_and_insert('./parts/side.html', [["menu", "menu"], ["link", "link"]]);
+            load_html_and_insert('./parts/header.html', [["header", "header"]]);
+            load_html_and_insert('./parts/side.html', [["menu", "menu"], ["link", "link"]]);
+            load_html_and_insert('./parts/footer.html', [["footer", "footer"]]);
 
         });
     </script>
