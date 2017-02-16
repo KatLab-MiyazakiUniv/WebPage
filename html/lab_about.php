@@ -20,7 +20,7 @@
 
     <!-- 本文ブロック -->
     <div class="container" style="background:#;height:auto;">
-        <h1>研究室紹介</h1>
+        <h1 class="f-title">研究室紹介</h1>
         <h2>Software Engineering</h2>
         <div class="row">
             <div class="col-sm-6">
@@ -69,18 +69,18 @@
         </div>
 
         <h2>Software Testing</h2>
-        <div class="row">
+        <div class="f-rounded row">
             <div class="col-xs-12">
                 <h4>自分が作ったプログラムが正しく動作することを他人に説明する（証明する）には、どうすればいいのでしょうか？</h4>
                 <ul>
                     <li>
-                        <h5>プログラムの信頼性向上のための一つの手法が<span class="text-danger">テスト技法</span>です</h5>
+                        プログラムの信頼性向上のための一つの手法が<span class="text-danger">テスト技法</span>です
                     </li>
                     <li>
-                        <h5>一般に、プログラムの開発費用の中でテストにかかる費用は、<span class="text-danger">全体の約半分</span>と言われており、<span class="text-danger">莫大な費用</span>がかかっています</h5>
+                        一般に、プログラムの開発費用の中でテストにかかる費用は、<span class="text-danger">全体の約半分</span>と言われており、<span class="text-danger">莫大な費用</span>がかかっています
                     </li>
                     <li>
-                        <h5>テストでは、実行した入力データ（テストデータ）に対してのみプログラムの正しさを保証できるので、プログラムの品質は、どのようなテストデータに基づいてテストしたかに依存します。したがって、テストデータを選定する上で、テストデータについての条件を記述した<span class="text-danger">テストケースの作成が重要</span>になります</h5>
+                        テストでは、実行した入力データ（テストデータ）に対してのみプログラムの正しさを保証できるので、プログラムの品質は、どのようなテストデータに基づいてテストしたかに依存します。したがって、テストデータを選定する上で、テストデータについての条件を記述した<span class="text-danger">テストケースの作成が重要</span>になります
                     </li>
                 </ul>
             </div>
