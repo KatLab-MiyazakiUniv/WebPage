@@ -37,7 +37,7 @@
         <hr>
         <div class="f-rounded col-xs-12">
             <div>
-                <h1>新着情報</h1>
+                <h2>News</h2>
                 <?php include (dirname(__FILE__).'/parts/news.html'); ?>
             </div>
         </div>
