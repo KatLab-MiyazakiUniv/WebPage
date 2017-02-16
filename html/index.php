@@ -20,24 +20,24 @@
 
     <!-- 本文ブロック -->
     <div class="container" style="background:#;height:auto;">
-        <div class="row">
+        <div class="f-rounded row">
             <div class="col-sm-5 visible-sm visible-md visible-lg">
                 <p></p>
-            <img src="/images/welcome.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+                <img src="/images/welcome.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
-                <div class="col-sm-5 visible-xs">
+            <div class="col-sm-5 visible-xs">
                 <p></p>
                 <img src="/images/welcome_wide.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
             <div class="col-sm-7">
-                <h1>Welcome To Kat-Lab !!</h1>
+                <h1>Welcome to Kat-Lab !!</h1>
                 片山(徹)研では， 「ソフトウェア開発における人間の負担をいかに減らし、ソフトウェアの品質を上げることができるのか？」 をテーマに、リファクタリング，形式手法，モデリング言語、テスト等を研究しています。
             </div>
         </div>
         <hr>
-        <div class="col-xs-12">
+        <div class="f-rounded col-xs-12">
             <div>
-                <h1>新着情報</h1>
+                <h2>News</h2>
                 <?php include (dirname(__FILE__).'/parts/news.html'); ?>
             </div>
         </div>
