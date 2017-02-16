@@ -19,7 +19,7 @@
     <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
-    <div class="container" style="background:#999;height: 100vh;">
+    <div class="container" style="background:#;height:auto;">
         <div class="row">
             <div class="col-sm-5 visible-sm visible-md visible-lg">
                 <p></p>
@@ -38,9 +38,11 @@
         <div class="col-xs-12">
             <div>
                 <h1>新着情報</h1>
+                <?php include (dirname(__FILE__).'/parts/news.html'); ?>
             </div>
         </div>
     </div>
+    <p></p>
 
     <!-- フッター -->
     <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
