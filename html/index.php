@@ -30,7 +30,7 @@
                 <img src="/images/welcome_wide.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
             <div class="col-sm-7">
-                <h1>Welcome to Kat-Lab !!</h1>
+                <h1>Think Software Engineering!</h1>
                 片山(徹)研では， 「ソフトウェア開発における人間の負担をいかに減らし、ソフトウェアの品質を上げることができるのか？」 をテーマに、リファクタリング，形式手法，モデリング言語、テスト等を研究しています。
             </div>
         </div>
