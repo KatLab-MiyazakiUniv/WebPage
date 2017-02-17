@@ -35,8 +35,8 @@
             </div>
         </div>
         <hr>
-        <div class="f-rounded col-xs-12">
-            <div>
+        <div class="row">
+            <div class="f-rounded col-xs-12">
                 <h2>News</h2>
                 <?php include (dirname(__FILE__).'/parts/news.html'); ?>
             </div>
