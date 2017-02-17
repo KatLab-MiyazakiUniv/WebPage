@@ -45,13 +45,11 @@
         </div>
         <h2>Software Design & Programming</h2>
         <div class="row">
-            <div class="col-sm-5">
-                <div class="row">
-                    <p></p>
-                    <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真" style="height:auto;">
-                </div>
-            </div>
             <div class="col-sm-1 visible-sm"></div>
+            <div class="col-sm-5">
+                <p></p>
+                <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真" style="height:auto;">
+            </div>
             <div class="col-md-7 col-sm-6">
 
                 <h4>ソフトウェアを正しく作ることが難しい理由</h4>
