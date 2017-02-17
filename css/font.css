@@ -1,5 +1,12 @@
 .f-title {
+    font-family: "Mplus 1p";
+    font-weight: 800;
     border-bottom: 2px solid #ccc;
+}
+
+.f-h2 {
+    font-family: "Anton", "Mplus 1p";
+    font-weight: 500;
 }
 
 .f-rounded {

@@ -21,7 +21,7 @@
     <!-- 本文ブロック -->
     <div class="container f-rounded" style="background:#;height:auto;">
         <h1 class="f-title">メンバー紹介</h1>
-        <h2>准教授</h2>
+        <h2 class="f-h2">准教授 <small>Associate professor</small></h2>
         <div class="row">
             <div class="container">
                 <div class="row">
@@ -43,11 +43,11 @@
             </div>
         </div>
 
-        <h2>修士</h2>
+        <h2 class="f-h2">修士 <small>Master</small></h2>
         <?php include (dirname(__FILE__).'/parts/member_list/master.html'); ?>
 
         <!-- ヘッダー -->
-        <h2>学士</h2>
+        <h2 class="f-h2">学士 <small>Bachelor</small></h2>
         <?php include (dirname(__FILE__).'/parts/member_list/bachelor.html'); ?>
     </div>
 
