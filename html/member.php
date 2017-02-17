@@ -6,7 +6,7 @@
 
 
 <head>
-    <title>片山(徹)研究室 : 宮崎大学</title>
+    <title>メンバー紹介 - 片山(徹)研究室 : 宮崎大学</title>
 </head>
 
 
