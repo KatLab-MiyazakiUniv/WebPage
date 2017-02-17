@@ -18,7 +18,3 @@ h1,
 h2 {
     font-family: "Anton", "Rounded Mplus 1c", sans-serif;
 }
-
-html {
-    font-size: calc(112.5% + 0.5vw)
-}

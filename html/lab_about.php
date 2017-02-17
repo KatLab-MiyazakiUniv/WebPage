@@ -19,7 +19,7 @@
     <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
-    <div class="container" style="background:#;height:auto;">
+    <div class="container f-rounded" style="background:#;height:auto;">
         <h1 class="f-title">研究室紹介</h1>
         <h2>Software Engineering</h2>
         <div class="row">
@@ -45,8 +45,11 @@
         </div>
         <h2>Software Design & Programming</h2>
         <div class="row">
-            <div class="col-sm-1 visible-sm"></div>
-            <div class="col-sm-5">
+            <div class="col-sm-6 visible-sm">
+                <p></p>
+                <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真">
+            </div>
+            <div class="col-sm-5 visible-xs visible-md visible-lg">
                 <p></p>
                 <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真" style="height:auto;">
             </div>
@@ -71,7 +74,7 @@
         </div>
 
         <h2>Software Testing</h2>
-        <div class="f-rounded row">
+        <div class="row">
             <div class="col-xs-12">
                 <h4>自分が作ったプログラムが正しく動作することを他人に説明する（証明する）には、どうすればいいのでしょうか？</h4>
                 <ul>
@@ -87,8 +90,9 @@
                 </ul>
             </div>
         </div>
-
-
+        <div class="text-right" style="margin-top:50px;">
+            情報システム工学科 准教授<br> 片山徹郎
+        </div>
     </div>
     <p></p>
 
