@@ -24,7 +24,7 @@
         <h2>Software Engineering</h2>
         <div class="row">
             <div class="col-sm-6">
-                <h4>良いプログラムとは何かを考えます。</h4>
+                <h4><span class="h4 text-danger">良いプログラムとは何か</span>を考えます。</h4>
                 <ul>
                     <li>プログラムの信頼性</li>
                     <li>プログラムの使用性（ユーザインターフェイス）</li>
@@ -35,7 +35,7 @@
             </div>
             <div class="col-sm-6">
 
-                <h4>良いプログラムを作るための手法を考えます。</h4>
+                <h4><span class="h4 text-danger">良いプログラムを作るための手法</span>を考えます。</h4>
                 <ul>
                     <li>プログラムの生産性</li>
                     <li>プログラムの移植性</li>
@@ -46,7 +46,6 @@
         <h2>Software Design & Programming</h2>
         <div class="row">
             <div class="col-sm-6 visible-sm">
-                <p></p>
                 <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
             <div class="col-sm-5 visible-xs visible-md visible-lg">
@@ -57,19 +56,19 @@
 
                 <h4>ソフトウェアを正しく作ることが難しい理由</h4>
                 <ul>
-                    <li>ソフトウェアが目に見えないため、動作が把握しにくい</li>
-                    <li>開発作業のほとんどが人手によるため、思い込みやコーディングミスなどを引き起こしやすい</li>
+                    <li><span class="text-danger">ソフトウェアが目に見えない</span>ため、動作が把握しにくい</li>
+                    <li><span class="text-danger">開発作業のほとんどが人手</span>によるため、思い込みやコーディングミスなどを引き起こしやすい</li>
                 </ul>
             </div>
             <div class="col-md-7 col-sm-6">
                 <h4>ソフトウェアが目に見えないことの解決策</h4>
                 <ul>
-                    <li>ソフトウェアの振る舞いを設計段階でモデル化する</li>
-                    <li>ソースコードを可視化する</li>
+                    <li><span class="text-danger">ソフトウェアの振る舞いを設計段階でモデル化する</span></li>
+                    <li><span class="text-danger">ソースコードを可視化する</span></li>
                 </ul>
             </div>
             <div class="col-lg-7 col-md-12 col-sm-6">
-                <h4>ソフトウェアの開発作業のほとんどが人手によることの解決策として、開発の主体をコーディングからモデルベースに抽象化する手法が有力視されています</h4>
+                <h4>ソフトウェアの開発作業のほとんどが人手によることの解決策として、開発の主体を<span class="h4 text-danger">コーディングからモデルベースに抽象化</span>する手法が有力視されています</h4>
             </div>
         </div>
 
@@ -90,7 +89,7 @@
                 </ul>
             </div>
         </div>
-        <div class="text-right" style="margin-top:50px;">
+        <div class="text-right" style="margin-top:50px;font-style:italic;">
             情報システム工学科 准教授<br> 片山徹郎
         </div>
     </div>
