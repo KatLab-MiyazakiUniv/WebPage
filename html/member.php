@@ -19,7 +19,7 @@
     <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
-    <div class="container" style="background:#;height:auto;">
+    <div class="container f-rounded" style="background:#;height:auto;">
         <h1 class="f-title">メンバー紹介</h1>
         <h2>准教授</h2>
         <div class="row">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="col-xs-4 col-md-2">
-                        <a href="http://earth.cs.miyazaki-u.ac.jp/~kat/">Home page</a>
+                        <a href="http://earth.cs.miyazaki-u.ac.jp/~kat/" target="_blank">Home page</a>
                     </div>
                 </div>
             </div>
