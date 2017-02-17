@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 0px) and (max-width: 479px) {
     * {
-        font-size: 19px;
+        font-size: 18px;
     }
     h1,
     h2 {
@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     * {
-        font-size: 21px;
+        font-size: 19px;
     }
     .copyright {
         font-size: 14px;
@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 768px) {
     * {
-        font-size: 22px;
+        font-size: 19px;
     }
     p,
     .panel-title,
