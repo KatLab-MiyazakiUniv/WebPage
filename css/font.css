@@ -1,0 +1,30 @@
+.f-title {
+    font-family: "Mplus 1p";
+    font-weight: 800;
+    border-bottom: 2px solid #ccc;
+}
+
+.f-h2 {
+    font-family: "Anton", "Mplus 1p";
+    font-weight: 500;
+}
+
+.f-rounded {
+    font-family: "Rounded Mplus 1c", sans-serif;
+}
+
+.f-anton {
+    font-family: "Anton", "Rounded Mplus 1c", sans-serif;
+}
+
+.f-pageTitle {
+    font-size: xx-large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Anton", "Rounded Mplus 1c", sans-serif;
+}

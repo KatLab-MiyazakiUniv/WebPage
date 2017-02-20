@@ -19,21 +19,37 @@
     <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
-    <div class="container">
+    <div class="container" style="background:#;height:auto;">
+        <div class="f-rounded row">
+            <div class="col-sm-5 visible-sm visible-md visible-lg">
+                <p></p>
+                <img src="/images/welcome.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+            </div>
+            <div class="col-sm-5 visible-xs">
+                <p></p>
+                <img src="/images/welcome_wide.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+            </div>
+            <div class="col-sm-7">
+                <h1>Think Software Engineering!</h1>
+                片山(徹)研では， 「ソフトウェア開発における人間の負担をいかに減らし、ソフトウェアの品質を上げることができるのか？」 をテーマに、リファクタリング，形式手法，モデリング言語、テスト等を研究しています。
+            </div>
+        </div>
+        <hr>
         <div class="row">
-            <div class="col-xs-12" style="background:#999;height: 100vh;">
-                <h2>本文ブロック</h2>
-                <div id="sssbarName">ああああああああ</div>
+            <div class="f-rounded col-xs-12">
+                <h2>News</h2>
+                <?php include (dirname(__FILE__).'/parts/news.html'); ?>
             </div>
         </div>
     </div>
+    <p></p>
 
     <!-- フッター -->
     <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
 
     <!-- Javascriptの読み込み -->
     <?php include (dirname(__FILE__).'/parts/js_load.html'); ?>
-    
+
 </body>
 
 </html>
