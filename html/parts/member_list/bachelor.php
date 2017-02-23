@@ -9,6 +9,8 @@ $bachelors = array(
 foreach ($bachelors as $key => $member) {
     if($member[2]!=''){
         $homepage = '<a href="'.$member[2].'" target="_blank">Home page</a>';
+    }else{
+        $homepage = '';
     }
     
 echo <<<EOT

@@ -1,13 +1,16 @@
 <?php
 
-$bachelors = array(
+$masters = array(
     //ここにメンバーを追加
     '田上 諭'=>array('M2', 'Satoshi TANOUE', 'http://earth.cs.miyazaki-u.ac.jp/~tanoue/')
 );
 
-foreach ($bachelors as $key => $member) {
+foreach ($masters as $key => $member) {
+    //ホームページの有無
     if($member[2]!=''){
         $homepage = '<a href="'.$member[2].'" target="_blank">Home page</a>';
+    }else{
+        $homepage = '';
     }
     
 echo <<<EOT
