@@ -48,7 +48,7 @@
 
         <!-- ヘッダー -->
         <h2 class="f-h2">学士 <small>Bachelor</small></h2>
-        <?php include (dirname(__FILE__).'/parts/member_list/bachelor.html'); ?>
+        <?php include (dirname(__FILE__).'/parts/member_list/bachelor.php'); ?>
     </div>
 
     <!-- フッター -->
