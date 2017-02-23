@@ -44,7 +44,7 @@
         </div>
 
         <h2 class="f-h2">修士 <small>Master</small></h2>
-        <?php include (dirname(__FILE__).'/parts/member_list/master.html'); ?>
+        <?php include (dirname(__FILE__).'/parts/member_list/master.php'); ?>
 
         <!-- ヘッダー -->
         <h2 class="f-h2">学士 <small>Bachelor</small></h2>
