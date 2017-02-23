@@ -1,12 +1,7 @@
 <?php
 
-$bachelors = array(
-    //ここにメンバーを追加
-    '市山 力也'=>array('B4', 'Rikiya ICHIYAMA', ''),
-    '平木場 風太'=>array('B4', 'Futa HIRAKOBA', 'https://korosuke613.github.io/')
-);
-
-foreach ($bachelors as $key => $member) {
+foreach ($members as $key => $member) {
+    //ホームページの有無
     if($member[2]!=''){
         $homepage = '<a href="'.$member[2].'" target="_blank">Home page</a>';
     }else{

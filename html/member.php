@@ -43,12 +43,18 @@
             </div>
         </div>
 
+        <!-- メンバーの読み込み -->
+        <?php include (dirname(__FILE__).'/parts/member_list/member_list.php'); ?>
+
         <h2 class="f-h2">修士 <small>Master</small></h2>
-        <?php include (dirname(__FILE__).'/parts/member_list/master.php'); ?>
+        <?php $members = $masters; ?>
+        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
 
         <!-- ヘッダー -->
         <h2 class="f-h2">学士 <small>Bachelor</small></h2>
-        <?php include (dirname(__FILE__).'/parts/member_list/bachelor.php'); ?>
+        <?php $members = $bachelors; ?>
+        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
+
     </div>
 
     <!-- フッター -->
