@@ -21,8 +21,17 @@
     <!-- 本文ブロック -->
     <div class="container f-rounded" style="background:#;height:auto;">
         <h1 class="f-title">論文リスト</h1>
-        工事中
+        <!-- 年リスト -->
+        <?php include (dirname(__FILE__).'/parts/papers_list/year_list.php'); ?>
+
     </div>
+
+    <p>現在
+        <?php echo $year; ?> 年です。</p>
+    <p>
+        <?php if ($year == 2017) : ?> aaaaaaaaaa
+        <?php endif; ?>
+    </p>
 
     <!-- フッター -->
     <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
