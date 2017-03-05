@@ -26,12 +26,13 @@
 
     </div>
 
-    <p>現在
-        <?php echo $year; ?> 年です。</p>
-    <p>
-        <?php if ($year == 2017) : ?> aaaaaaaaaa
-        <?php endif; ?>
-    </p>
+    <?php   for($i = $last_year; $i>=$first_year; $i--){
+                if($year == $i){
+                    include (dirname(__FILE__).'/parts/papers_list/papers'.$i.'.html');
+                    break;
+                }
+            }
+    ?>
 
     <!-- フッター -->
     <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
