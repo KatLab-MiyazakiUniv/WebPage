@@ -34,6 +34,7 @@
             }
     ?>
 
+
     <!-- フッター -->
     <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
 
