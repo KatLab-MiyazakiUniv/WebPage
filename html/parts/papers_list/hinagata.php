@@ -4,7 +4,6 @@
                     break;
                 }
             }
-?>
 
 foreach ($members as $key => $member) {
 
