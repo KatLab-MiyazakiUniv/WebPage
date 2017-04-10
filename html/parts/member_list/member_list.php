@@ -5,7 +5,7 @@ $masters = array(
     '黄 一諾'=>array('M2', '', ''),
     '佐藤 拓弥'=>array('M2', 'Takuya SATOU', ''),
     '立山 博基'=>array('M2', 'Hiroki TATIYAMA', ''),
-    '田上 諭'=>array('M2', 'Satoshi TANOUE', 'http://earth.cs.miyazaki-u.ac.jp/~tanoue/')
+    '田上 諭'=>array('M2', 'Satoshi TANOUE', 'http://earth.cs.miyazaki-u.ac.jp/~tanoue/'),
     '村上 雅人'=>array('M1', 'Masato MURAKAMI', ''),
     '森 敬介'=>array('M1', 'Keisuke MORI', '')
 );
