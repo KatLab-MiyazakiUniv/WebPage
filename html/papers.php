@@ -26,13 +26,8 @@
 
     </div>
 
-    <?php   for($i = $last_year; $i>=$first_year; $i--){
-                if($year == $i){
-                    include (dirname(__FILE__).'/parts/papers_list/papers'.$i.'.html');
-                    break;
-                }
-            }
-    ?>
+    <!-- 論文リスト -->
+    <?php include (dirname(__FILE__).'/parts/papers_list/hinagata.php'); ?>
 
 
     <!-- フッター -->
