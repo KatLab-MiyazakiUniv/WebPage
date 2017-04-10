@@ -23,11 +23,11 @@
         <div class="f-rounded row">
             <div class="col-sm-5 visible-sm visible-md visible-lg">
                 <p></p>
-                <img src="/images/welcome.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+                <img src="../images/welcome.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
             <div class="col-sm-5 visible-xs">
                 <p></p>
-                <img src="/images/welcome_wide.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
+                <img src="../images/welcome_wide.jpg" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
             <div class="col-sm-7">
                 <h1>Think Software Engineering!</h1>
