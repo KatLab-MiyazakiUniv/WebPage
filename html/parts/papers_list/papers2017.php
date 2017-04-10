@@ -1,6 +1,8 @@
 <?php
 
-$members = array(
+$masters = array();
+
+$bachelors = array(
     //ここにメンバーを追加
     '岩切 恭平'=>array('回路設計支援を目的としたArduinoシミュレータADVISの作成', ''),
     '福島 拓也'=>array('Rubyプログラム単体テスト並列実行ツールCoDeCTのテスト実施状況の可視化', ''),

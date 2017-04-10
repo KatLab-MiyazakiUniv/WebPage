@@ -25,7 +25,6 @@
         <?php include (dirname(__FILE__).'/parts/papers_list/year_list.php'); ?>
         
         <!-- 卒業論文リスト -->
-        <h2 class="f-h2">卒業論文 <small>Graduation thesis</small></h2>
         <?php include (dirname(__FILE__).'/parts/papers_list/hinagata.php'); ?>
 
     </div>
