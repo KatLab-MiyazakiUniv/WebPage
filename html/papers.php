@@ -6,7 +6,7 @@
 
 
 <head>
-    <title>メンバー紹介 - 片山(徹)研究室 : 宮崎大学</title>
+    <title>論文リスト - 片山(徹)研究室 : 宮崎大学</title>
 </head>
 
 
@@ -23,17 +23,13 @@
         <h1 class="f-title">論文リスト</h1>
         <!-- 年リスト -->
         <?php include (dirname(__FILE__).'/parts/papers_list/year_list.php'); ?>
+        
+        <!-- 卒業論文リスト -->
+        <?php include (dirname(__FILE__).'/parts/papers_list/hinagata.php'); ?>
 
     </div>
 
-    <?php   for($i = $last_year; $i>=$first_year; $i--){
-                if($year == $i){
-                    include (dirname(__FILE__).'/parts/papers_list/papers'.$i.'.html');
-                    break;
-                }
-            }
-    ?>
-
+    
 
     <!-- フッター -->
     <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
