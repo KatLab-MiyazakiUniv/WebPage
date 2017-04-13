@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <!-- 共通<head>タグ -->
-<?php include (dirname(__FILE__).'/parts/head_tag.html'); ?>
+<?php include (dirname(__FILE__).'/html/parts/head_tag.html'); ?>
 
 
 <head>
@@ -13,10 +13,10 @@
 <body>
 
     <!-- ヘッダー -->
-    <?php include (dirname(__FILE__).'/parts/header.html'); ?>
+    <?php include (dirname(__FILE__).'/html/parts/header.html'); ?>
 
     <!-- メニュー -->
-    <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
+    <?php include (dirname(__FILE__).'/html/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
     <div class="container" style="background:#;height:auto;">
@@ -38,17 +38,17 @@
         <div class="row">
             <div class="f-rounded col-xs-12">
                 <h2>News</h2>
-                <?php include (dirname(__FILE__).'/parts/news.html'); ?>
+                <?php include (dirname(__FILE__).'/html/parts/news.html'); ?>
             </div>
         </div>
     </div>
     <p></p>
 
     <!-- フッター -->
-    <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
+    <?php include (dirname(__FILE__).'/html/parts/footer.html'); ?>
 
     <!-- Javascriptの読み込み -->
-    <?php include (dirname(__FILE__).'/parts/js_load.html'); ?>
+    <?php include (dirname(__FILE__).'/html/parts/js_load.html'); ?>
 
 </body>
 

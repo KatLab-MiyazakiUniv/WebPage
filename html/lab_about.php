@@ -46,11 +46,11 @@
         <h2>Software Design & Programming</h2>
         <div class="row">
             <div class="col-sm-6 visible-sm">
-                <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真">
+                <img src="../images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真">
             </div>
             <div class="col-sm-5 visible-xs visible-md visible-lg">
                 <p></p>
-                <img src="/images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真" style="height:auto;">
+                <img src="../images/tfvis.png" class="img-responsive img-rounded" alt="ひらこばの写真" style="height:auto;">
             </div>
             <div class="col-md-7 col-sm-6">
 
