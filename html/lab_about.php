@@ -92,6 +92,12 @@
         <div class="text-right" style="margin-top:50px;font-style:italic;">
             情報システム工学科 准教授<br> 片山徹郎
         </div>
+        <hr> 過去制作したツール
+        <ul>
+            <li>
+                <a href="http://earth.cs.miyazaki-u.ac.jp/research/2016">2016年</a>
+            </li>
+        </ul>
     </div>
     <p></p>
 
