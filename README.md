@@ -5,7 +5,7 @@ Hello everyone!
 
 Bootstrapを利用しています。　　
 
-各ディレクトリの概要　　
+各ディレクトリの概要　　　　　
 /css -> 各種cssファイルが入ってます。　　
 
 /fonts -> Bootstrapで利用するフォントが入ってます。　　
