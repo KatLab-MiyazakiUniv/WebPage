@@ -13,3 +13,4 @@ masterブランチを更新すると、earthのgitリポジトリのWebPageも�
 - `/html` -> 各種HTMLファイルが入ってます。　　
 - `/html/parts` -> Webレイアウトのパーツ(ヘッダー、メニュー、フッター)が入ってます。　　
 - `/js` -> 各種JavaScriptファイルが入ってます。　　
+- 'hook.php' -> 自動更新のWebHook設定です。
