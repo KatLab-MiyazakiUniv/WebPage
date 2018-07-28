@@ -1,4 +1,5 @@
 // 参考 http://blog.manaten.net/entry/573
+// うまく行かなかったら/var/log/httpd/error_logを見てね！
 
 <?php
 
