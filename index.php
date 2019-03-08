@@ -41,6 +41,13 @@
                 <?php include (dirname(__FILE__).'/html/parts/news.html'); ?>
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="f-rounded col-xs-12 col-md-8">
+                <h2>Twitter</h2>
+                <a class="twitter-timeline" height="80vh" href="https://twitter.com/miyazaki_katlab?ref_src=twsrc%5Etfw">Tweets by miyazaki_katlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
     </div>
     <p></p>
 
