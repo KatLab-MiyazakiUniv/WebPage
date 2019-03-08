@@ -1,0 +1,55 @@
+body { color: #bbbbbb; 
+       background: #222222;}
+strong { color: #cc0033; }
+keyword { color: #66ccff; }
+h1{ 
+    color: #66ccff;
+
+}
+h2{ color: #bbbbbb; }
+
+a:link    { color: #99ccff; }
+a:visited { color: #544a47; }
+
+.absolute{
+    text-align:center;
+    position: relative;
+}
+
+.absolute .text{
+    width:100%;
+    font-size:150%;
+    margin:-1250px;
+    padding:0;
+}
+
+.relative{
+    text-align: center;
+}
+.relative img {
+    width: 80%;
+    height: 100vw;
+}
+
+.center {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.center img{
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
+.left {
+    position: relative;
+    left:230px;
+    bottom:15px;
+    float: left;
+}
+
+.right{
+    position : relative;
+    left:50px;
+}
