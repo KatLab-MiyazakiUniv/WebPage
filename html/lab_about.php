@@ -90,15 +90,18 @@
             </div>
         </div>
         <div class="text-right" style="margin-top:50px;font-style:italic;">
-            情報システム工学科 准教授<br> 片山徹郎
+            情報システム工学科 教授<br> 片山徹郎
         </div>
         <hr> 過去制作したツール
         <ul>
             <li>
-                <a href="researchs/2017.html">2017年</a>
+                <a href="researchs/2018.html">2018年度</a>
             </li>
             <li>
-                <a href="http://earth.cs.miyazaki-u.ac.jp/research/2016">2016年</a>
+                <a href="researchs/2017.html">2017年度</a>
+            </li>
+            <li>
+                <a href="http://earth.cs.miyazaki-u.ac.jp/research/2016">2016年度</a>
             </li>
         </ul>
     </div>
