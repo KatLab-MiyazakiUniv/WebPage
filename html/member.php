@@ -21,7 +21,7 @@
     <!-- 本文ブロック -->
     <div class="container f-rounded" style="background:#;height:auto;">
         <h1 class="f-title">メンバー紹介</h1>
-        <h2 class="f-h2">准教授 <small>Associate professor</small></h2>
+        <h2 class="f-h2">教授 <small>Professor</small></h2>
         <div class="row">
             <div class="container">
                 <div class="row">
@@ -45,6 +45,10 @@
 
         <!-- メンバーの読み込み -->
         <?php include (dirname(__FILE__).'/parts/member_list/member_list.php'); ?>
+
+        <h2 class="f-h2">博士 <small>Doctor</small></h2>
+        <?php $members = $doctors; ?>
+        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
 
         <h2 class="f-h2">修士 <small>Master</small></h2>
         <?php $members = $masters; ?>
