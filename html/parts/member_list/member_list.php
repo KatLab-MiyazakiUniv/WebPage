@@ -1,20 +1,25 @@
 <?php
 
+$doctors = array(
+    //ここにメンバーを追加
+    'チャンドラ'=>array('D2', 'MOHAMAD CHANDRA SAPTRA', ''),
+);
+
 $masters = array(
     //ここにメンバーを追加
-    '森 敬介'=>array('M2', 'Keisuke MORI', ''),
-    '西田 龍登'=>array('M1', 'Tatsumi NISHIDA', ''),
-    '平木場 風太'=>array('M1', 'Futa HIRAKOBA', 'https://korosuke613.github.io/'),
-    '宮地 俊宏'=>array('M1', 'Toshihiro MIYAJI', '')
+    '西田 龍登'=>array('M2', 'Tatsumi NISHIDA', ''),
+    '平木場 風太'=>array('M2', 'Futa HIRAKOBA', 'https://korosuke613.github.io/'),
+    '宮地 俊宏'=>array('M2', 'Toshihiro MIYAJI', ''),
+    '執行 泰弘'=>array('M1', 'Yasuhiro SHIGYO', ''),
 );
 
 $bachelors = array(
     //ここにメンバーを追加
-    '栗原 舜'=>array('B4', 'Syun KURIHARA', ''),
-    '執行 泰弘'=>array('B4', 'Yasuhiro SHIGYO', ''),
-    '楢木 悠生'=>array('B4', 'Yusei NARAKI', ''),
-    '保坂 正道'=>array('B4', 'Masahiro HOSAKA', ''),
-    '中村 瑞穂'=>array('B4', 'Mizuho NAKAMURA', '')
+    '有馬 薫'=>array('B4', 'Kaoru ARIMA', ''),
+    '大岩根 悠希'=>array('B4', 'Yuki OIWANE', ''),
+    '原田 海人'=>array('B4', 'Kaito HARADA', ''),
+    '保坂 正道'=>array('B4', 'Masamichi HOSAKA', ''),
+    '松浦 基希'=>array('B4', 'Motoki MATSUURA', ''),
 );
 
 ?>
