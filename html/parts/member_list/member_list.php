@@ -3,7 +3,7 @@
 $doctors = array(
     //ここにメンバーを追加
     'チャンドラ'=>array('D2', 'MOHAMAD CHANDRA SAPTRA', ''),
-    'バユ'=>array('D1', 'BAYU PRIYAMBADHA')
+    'バユ'=>array('D1', 'BAYU PRIYAMBADHA', '')
 );
 
 $masters = array(
