@@ -10,7 +10,7 @@ $masters = array(
     //ここにメンバーを追加
     '西田 龍登'=>array('M2', 'Tatsumi NISHIDA', ''),
     '平木場 風太'=>array('M2', 'Futa HIRAKOBA', 'https://korosuke613.github.io/'),
-    '宮地 俊宏'=>array('M2', 'Toshihiro MIYAJI', ''),
+    '宮地 俊宏'=>array('M2', 'Toshihiro MIYAJI', 'http://earth.cs.miyazaki-u.ac.jp/~miyaji/'),
     '執行 泰弘'=>array('M1', 'Yasuhiro SHIGYO', ''),
 );
 
