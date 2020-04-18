@@ -8,19 +8,16 @@ $doctors = array(
 
 $masters = array(
     //ここにメンバーを追加
-    '西田 龍登'=>array('M2', 'Tatsumi NISHIDA', ''),
-    '平木場 風太'=>array('M2', 'Futa HIRAKOBA', 'https://korosuke613.github.io/'),
-    '宮地 俊宏'=>array('M2', 'Toshihiro MIYAJI', 'http://earth.cs.miyazaki-u.ac.jp/~miyaji/'),
-    '執行 泰弘'=>array('M1', 'Yasuhiro SHIGYO', ''),
+    '執行 泰弘'=>array('M2', 'Yasuhiro SHIGYO', ''),
+    '有馬 薫'=>array('M1', 'Kaoru ARIMA', '')
 );
 
 $bachelors = array(
     //ここにメンバーを追加
-    '有馬 薫'=>array('B4', 'Kaoru ARIMA', ''),
-    '大岩根 悠希'=>array('B4', 'Yuki OIWANE', ''),
-    '原田 海人'=>array('B4', 'Kaito HARADA', ''),
-    '保坂 正道'=>array('B4', 'Masamichi HOSAKA', ''),
-    '松浦 基希'=>array('B4', 'Motoki MATSUURA', ''),
+    '上田 高寛'=>array('B4', 'Takahiro UEDA', 'https://takahiro55555.github.io/'),
+    '菅 健将'=>array('B4', 'Kensuke SUGA', ''),
+    '前畑 有希'=>array('B4', 'Yuki MAEHATA', ''),
+    '武藤 崇史'=>array('B4', 'Takafumi MUTO', ''),
 );
 
 ?>
