@@ -1,7 +1,7 @@
 <?php
 
     $first_year = 2013;
-    $last_year = 2021;
+    $last_year = 2022;
 
     if (isset($_GET["year"]) && (int)$_GET["year"] >= $first_year && (int)$_GET["year"] <= $last_year) {
         $year = (int)$_GET["year"];
