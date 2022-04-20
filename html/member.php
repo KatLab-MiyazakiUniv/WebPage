@@ -59,6 +59,10 @@
         <?php $members = $bachelors; ?>
         <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
 
+        <!-- 職名等の英語表記に関する参考文献： https://www.t.kyoto-u.ac.jp/ja/about/name/8dyy8q -->
+        <h2 class="f-h2">技術補佐員 <small>Assistant Technical Staff</small></h2>
+        <?php $members = $assistant_technical_staff; ?>
+        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
     </div>
 
     <!-- フッター -->
