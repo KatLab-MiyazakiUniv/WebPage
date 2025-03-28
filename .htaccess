@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{SERVER_NAME} ='earth.cs.miyazaki-u.ac.jp"
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
