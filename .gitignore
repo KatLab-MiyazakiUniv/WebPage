@@ -5,4 +5,5 @@ seminar/
 research/
 .hook.*
 hook.log
+.htaccess
 
