@@ -32,7 +32,7 @@
 
 
     <!-- フッター -->
-    <?php include(dirname(__FILE__) . '/parts/footer.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/footer.php'); ?>
 
     <!-- Javascriptの読み込み -->
     <?php include(dirname(__FILE__) . '/parts/js_load.html'); ?>

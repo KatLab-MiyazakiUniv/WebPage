@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <!-- 共通<head>タグ -->
-<?php include (dirname(__FILE__).'/parts/head_tag.html'); ?>
+<?php include(dirname(__FILE__) . '/parts/head_tag.html'); ?>
 
 
 <head>
@@ -13,10 +13,10 @@
 <body>
 
     <!-- ヘッダー -->
-    <?php include (dirname(__FILE__).'/parts/header.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/header.html'); ?>
 
     <!-- メニュー -->
-    <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
     <div class="container f-rounded" style="background:#;height:auto;">
@@ -68,7 +68,8 @@
                 </ul>
             </div>
             <div class="col-lg-7 col-md-12 col-sm-6">
-                <h4>ソフトウェアの開発作業のほとんどが人手によることの解決策として、開発の主体を<span class="h4 text-danger">コーディングからモデルベースに抽象化</span>する手法が有力視されています</h4>
+                <h4>ソフトウェアの開発作業のほとんどが人手によることの解決策として、開発の主体を<span
+                        class="h4 text-danger">コーディングからモデルベースに抽象化</span>する手法が有力視されています</h4>
             </div>
         </div>
 
@@ -81,10 +82,12 @@
                         プログラムの信頼性向上のための一つの手法が<span class="text-danger">テスト技法</span>です
                     </li>
                     <li>
-                        一般に、プログラムの開発費用の中でテストにかかる費用は、<span class="text-danger">全体の約半分</span>と言われており、<span class="text-danger">莫大な費用</span>がかかっています
+                        一般に、プログラムの開発費用の中でテストにかかる費用は、<span class="text-danger">全体の約半分</span>と言われており、<span
+                            class="text-danger">莫大な費用</span>がかかっています
                     </li>
                     <li>
-                        テストでは、実行した入力データ（テストデータ）に対してのみプログラムの正しさを保証できるので、プログラムの品質は、どのようなテストデータに基づいてテストしたかに依存します。したがって、テストデータを選定する上で、テストデータについての条件を記述した<span class="text-danger">テストケースの作成が重要</span>になります
+                        テストでは、実行した入力データ（テストデータ）に対してのみプログラムの正しさを保証できるので、プログラムの品質は、どのようなテストデータに基づいてテストしたかに依存します。したがって、テストデータを選定する上で、テストデータについての条件を記述した<span
+                            class="text-danger">テストケースの作成が重要</span>になります
                     </li>
                 </ul>
             </div>
@@ -108,10 +111,10 @@
     <p></p>
 
     <!-- フッター -->
-    <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/footer.php'); ?>
 
     <!-- Javascriptの読み込み -->
-    <?php include (dirname(__FILE__).'/parts/js_load.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/js_load.html'); ?>
 
 </body>
 
