@@ -12,7 +12,6 @@ $masters = array(
     '根木原 滉' => array('M2', 'Kou NEGIHARA', ''),
     '高橋 朋弘' => array('M1', 'Tomohiro TAKAHASHI', ''),
     '宅間 千隼' => array('M1', 'Chihaya TAKUMA', ''),
-    '二村 圭哉' => array('M1', 'Keiya NIMURA', ''),
 );
 
 $bachelors = array(
