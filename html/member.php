@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <!-- 共通<head>タグ -->
-<?php include (dirname(__FILE__).'/parts/head_tag.html'); ?>
+<?php include(dirname(__FILE__) . '/parts/head_tag.html'); ?>
 
 
 <head>
@@ -13,10 +13,10 @@
 <body>
 
     <!-- ヘッダー -->
-    <?php include (dirname(__FILE__).'/parts/header.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/header.html'); ?>
 
     <!-- メニュー -->
-    <?php include (dirname(__FILE__).'/parts/menu.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/menu.html'); ?>
 
     <!-- 本文ブロック -->
     <div class="container f-rounded" style="background:#;height:auto;">
@@ -44,32 +44,32 @@
         </div>
 
         <!-- メンバーの読み込み -->
-        <?php include (dirname(__FILE__).'/parts/member_list/member_list.php'); ?>
+        <?php include(dirname(__FILE__) . '/parts/member_list/member_list.php'); ?>
 
         <h2 class="f-h2">博士 <small>Doctor</small></h2>
         <?php $members = $doctors; ?>
-        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
+        <?php include(dirname(__FILE__) . '/parts/member_list/hinagata.php'); ?>
 
         <h2 class="f-h2">修士 <small>Master</small></h2>
         <?php $members = $masters; ?>
-        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
+        <?php include(dirname(__FILE__) . '/parts/member_list/hinagata.php'); ?>
 
         <!-- ヘッダー -->
         <h2 class="f-h2">学士 <small>Bachelor</small></h2>
         <?php $members = $bachelors; ?>
-        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
+        <?php include(dirname(__FILE__) . '/parts/member_list/hinagata.php'); ?>
 
         <!-- 職名等の英語表記に関する参考文献： https://www.t.kyoto-u.ac.jp/ja/about/name/8dyy8q -->
         <h2 class="f-h2">技術補佐員 <small>Assistant Technical Staff</small></h2>
         <?php $members = $assistant_technical_staff; ?>
-        <?php include (dirname(__FILE__).'/parts/member_list/hinagata.php'); ?>
+        <?php include(dirname(__FILE__) . '/parts/member_list/hinagata.php'); ?>
     </div>
 
     <!-- フッター -->
-    <?php include (dirname(__FILE__).'/parts/footer.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/footer.php'); ?>
 
     <!-- Javascriptの読み込み -->
-    <?php include (dirname(__FILE__).'/parts/js_load.html'); ?>
+    <?php include(dirname(__FILE__) . '/parts/js_load.html'); ?>
 
 </body>
 
