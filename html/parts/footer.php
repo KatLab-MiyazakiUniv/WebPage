@@ -17,7 +17,7 @@
                 </ul>
                 <div class="text-right"><a href="https://github.com/KatLab-MiyazakiUniv/WebPage" class="link"
                         target="_blank">このページはgithubで管理されています</a></div>
-                <div class="text-right">©<?php echo date('Y'); ?> Kat-Lab inc.</div>
+                <div class="text-right">©<?php echo date('Y'); ?> Katayama Lab.</div>
             </div>
         </div>
     </div>
