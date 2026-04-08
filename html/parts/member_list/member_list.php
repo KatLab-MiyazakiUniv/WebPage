@@ -7,19 +7,19 @@ $doctors = array(
 
 $masters = array(
     //ここにメンバーを追加
-    '有留 直希' => array('M2', 'Naoki ARIDOME', ''),
-    '木村 優哉' => array('M2', 'Yuya KIMURA', ''),
-    '根木原 滉' => array('M2', 'Kou NEGIHARA', ''),
-    '高橋 朋弘' => array('M1', 'Tomohiro TAKAHASHI', ''),
-    '宅間 千隼' => array('M1', 'Chihaya TAKUMA', ''),
+    '高橋 朋弘' => array('M2', 'Tomohiro TAKAHASHI', ''),
+    '宅間 千隼' => array('M2', 'Chihaya TAKUMA', ''),
+    '有⾺ 温' => array('M1', 'Haru ARIMA', ''),
+    '⻄島 尚紀' => array('M1', 'Naoki NISHIJIMA', ''),
+    '宮原 嵩尭' => array('M1', 'Takaaki MIYAHARA', ''),
 );
 
 $bachelors = array(
     //ここにメンバーを追加
-    '有⾺ 温' => array('B4', 'Haru ARIMA', ''),
-    '⻄島 尚紀' => array('B4', 'Naoki NISHIZIMA', ''),
-    '原 成希' => array('B4', 'Naruki HARA', ''),
-    '宮原 嵩尭' => array('B4', 'Takaaki MIYAHARA', ''),
+    '奥山 幸太' => array('B4', 'Kota OKUYAMA', ''),
+    '兒玉 柚太郎' => array('B4', 'Yutaro KODAMA', ''),
+    '長友 壮志' => array('B4', 'Soushi NAGATOMO', ''),
+    '渡会 光岳' => array('B4', 'Migaku WATARAI', ''),
 );
 
 $assistant_technical_staff = array(
